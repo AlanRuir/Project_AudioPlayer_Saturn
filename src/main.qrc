@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+    <file>orange_vision_logo.png</file>
+    <file>styles.qss</file>
+</qresource>
+</RCC>

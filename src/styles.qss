@@ -1,0 +1,78 @@
+/* AudioDisplayWidget QSS */
+
+QWidget {
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+}
+
+QLabel {
+    background: transparent;
+    color: #FFFFFF;
+}
+
+QLabel#label_music_info {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF6F61; /* 橙色字体 */
+}
+
+QLabel#label_music_author {
+    font-size: 16px;
+    color: #FFB74D; /* 较浅的橙色 */
+}
+
+QPushButton {
+    /* background-color: #e95d25; */
+    border: 2px solid #9b6b5e;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    /* background-color: #FF8A65; */
+    border: 2px solid #FF8A65;
+}
+
+QPushButton:pressed {
+    /* background-color: #D84315; */
+    border: 2px solid #D84315;
+}
+
+QPushButton:disabled {
+    background-color: #BDBDBD;
+    color: #757575;
+}
+
+QFileDialog {
+    background-color: #424242;
+    color: #FFFFFF;
+    border: 1px solid #333333;
+}
+
+QFileDialog QLabel {
+    color: #FFFFFF;
+}
+
+QFileDialog QPushButton {
+    background-color: #FF6F61;
+    border: 1px solid #FF3D00;
+    color: #FFFFFF;
+}
+
+QFileDialog QPushButton:hover {
+    background-color: #FF8A65;
+}
+
+QFileDialog QPushButton:pressed {
+    background-color: #D84315;
+}
+
+QFileDialog QLineEdit {
+    background-color: #616161;
+    border: 1px solid #424242;
+    color: #FFFFFF;
+    padding: 4px;
+}
